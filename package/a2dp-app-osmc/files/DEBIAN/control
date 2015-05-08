@@ -3,7 +3,7 @@ Package: a2dp-app-osmc
 Version: 1.0.0
 Section: metapackages
 Essential: No
-Depends: libasound2-plugins, libasyncns0, libavcodec56, libavresample2, libavutil54,   libfftw3-single3, libgomp1, libgsm1, libice6, libjack-jackd2-0, libjson-c2, libltdl7, libmp3lame0, libopenjpeg5, libopus0, liborc-0.4-0, libpulse0, libpulsedsp, libsbc1, libschroedinger-1.0-0, libsm6, libsndfile1, libspeex1, libspeexdsp1, libtheora0, libva1, libvpx1, libwebrtc-audio-processing-0, libx11-xcb1, libx264-142, libxext6, libxi6, libxtst6, libxvidcore4, pulseaudio-utils, x11-common, pulseaudio, pulseaudio-module-bluetooth
+Depends: pulseaudio, pulseaudio-module-bluetooth
 Architecture: all
 Priority: required
 Maintainer: Sam G Nazarko <email@samnazarko.co.uk>
